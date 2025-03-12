@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- JAVASCRIPT -->
+    <script src="assets/js/scrollreveal.min.js" defer></script>
+    <script src="assets/js/workers.js" defer></script>
     <script src="assets/js/main.js" defer></script>
 
     <title>Projeto Chico</title>
@@ -39,7 +41,6 @@
                     </li>
                 </ul>
 
-                <img src="assets/img/nav-img.png" alt="spider" id="menu-img">
 
                 <div class="nav-close">
                     <i class='bx bx-x'></i>
@@ -54,16 +55,16 @@
 
     <main class="main">
         <!-- BANNER -->
-        <section class="section" >
+        <section class="section section-banner" >
             <div id="banner">
                 <div class="container banner-container">
-                    <img src="assets/img/chico.png" alt="imagem do chico">
-                    <h1>Projeto Chico</h1>
+                    <img class="img-banner" src="assets/img/chico.png" alt="imagem do chico">
+                    <h1 class="banner-title">Projeto Chico</h1>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="#">
+        <section class="section section-light" id="#">
             <div class="how-where-area">
                 <div class="container how-where-container">
                     <div class="how-it-item">
@@ -86,6 +87,7 @@
             </div>
         </section>
 
+        <!-- CARDS -->
         <section class="section" id="#">
             <div class="section3-area">
                 <div class="container section3-container">
@@ -106,6 +108,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- WORKER -->
+        <section class="section section-light" id="#">
+            <div class="container workers-container">
+                <h2>Quem fez?</h2>
+
+                <div class="workers-items">
+                    <!-- <div class="worker-item">
+                        <div class="worker-img"></div>
+
+                        <h4>Itoshi Rin</h4>
+                        <h5>Front-end</h5>
+
+                        <div class="worker-social">
+                            <div class="linkedin-icon">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </div>
+
+                            <div class="github-icon">
+                                <i class='bx bxl-github' ></i>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDER -->
+        <section class="section" id="#">
+            <div class="container slide-container">
+                <h2>Área de Slide</h2>
+                <p>Área dedicada para slide</p>
+
+                <div class="slider"></div>
             </div>
         </section>
     </main>

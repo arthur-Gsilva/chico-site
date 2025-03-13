@@ -10,6 +10,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
     <!-- JAVASCRIPT -->
     <script src="assets/js/scrollreveal.min.js" defer></script>
     <script src="assets/js/workers.js" defer></script>
@@ -31,13 +39,16 @@
             <div class="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#funciona" class="nav-link">Como funciona</a>
+                        <a href="#funciona" class="nav-link">O Que é</a>
                     </li>
                     <li class="nav-item">
                         <a href="#who" class="nav-link">Quem somos?</a>
                     </li>
                     <li class="nav-item">
                         <a href="#images" class="nav-link">Imagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#documnetos" class="nav-link">Documentaçõs</a>
                     </li>
                 </ul>
 
@@ -69,16 +80,17 @@
                 <div class="container how-where-container">
                     <div class="how-it-item">
                         <div>
-                            <h3>Como funciona?</h3>
+                            <h3>O Que é o chico no Sabrae?</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repudiandae eos adipisci delectus minus quos quisquam deleniti soluta provident, magni atque molestias autem maxime, sit, quam eaque vero corporis molestiae.</p>
                         </div>
 
                         <div class="imagem"></div>
                     </div>
                     <div class="where-it-item">
-                        <div>
-                            <h3>Onde está?</h3>
+                        <div class="historia-item">
+                            <h3>Como a história começou?</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repudiandae eos adipisci delectus minus quos quisquam deleniti soluta provident, magni atque molestias autem maxime, sit, quam eaque vero corporis molestiae.</p>
+                            <div class="btn-saiba-mais"><a href="https://www.exemplo.com"  target="_blank">Saiba Mais</a></div>
                         </div>
 
                         <div class="imagem"></div>
@@ -87,26 +99,31 @@
             </div>
         </section>
 
-        <!-- CARDS -->
+        <!-- SLIDER -->
         <section class="section" id="#">
-            <div class="section3-area">
-                <div class="container section3-container">
-                    <h2>Um título para essa sessão</h2>
+            <div class="container slide-container">
+                <h2>Como o Chico enxerga</h2>
+                <p>Área dedicada para slide</p>
 
-                    <div class="section3-items">
-                        <div class="section3-item">
-                            <h4>conteúdo</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat nisi eaque. Ratione unde aliquam ipsum nesciunt, quidem eum laudantium quo quam culpa adipisci explicabo fuga aut molestias, quasi labore!</p>
-                        </div>
-                        <div class="section3-item">
-                            <h4>conteúdo</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat nisi eaque. Ratione unde aliquam ipsum nesciunt, quidem eum laudantium quo quam culpa adipisci explicabo fuga aut molestias, quasi labore!</p>
-                        </div>
-                        <div class="section3-item">
-                            <h4>conteúdo</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae placeat nisi eaque. Ratione unde aliquam ipsum nesciunt, quidem eum laudantium quo quam culpa adipisci explicabo fuga aut molestias, quasi labore!</p>
-                        </div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
             </div>
         </section>
@@ -114,7 +131,16 @@
         <!-- WORKER -->
         <section class="section section-light" id="#">
             <div class="container workers-container">
-                <h2>Quem fez?</h2>
+                <div class="worker-header">
+                    <h2>Quem fez?</h2>
+
+                    <select id="filter">
+                        <option value="all">Todos</option>
+                        <option value="Front-end">Front-end</option>
+                        <option value="Back-end">Back-end</option>
+                        <option value="Gestão">Gestão</option>
+                    </select>
+                </div>
 
                 <div class="workers-items">
                     <!-- <div class="worker-item">
@@ -141,12 +167,59 @@
         <!-- SLIDER -->
         <section class="section" id="#">
             <div class="container slide-container">
-                <h2>Área de Slide</h2>
+                <h2>Fotos da Equipe do Projeto</h2>
                 <p>Área dedicada para slide</p>
 
-                <div class="slider"></div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+    
+                        <!-- If we need navigation buttons -->
+                        
+                    </div>
             </div>
         </section>
+
+        <!-- CARDS -->
+        <section class="section section-light" id="#">
+            <div class="techs-area">
+                <div class="container techs-container">
+                    <h2>Tecnologias</h2>
+
+                    <div class="techs-items">
+                        <div class="tech-item">
+                            <h5>HTML 5</h5>
+                            <i class='bx bxl-html5'></i>
+                        </div>
+                        <div class="tech-item">
+                            <h5>CSS 3</h5>
+                            <i class='bx bxl-css3' ></i>
+                        </div>
+                        <div class="tech-item">
+                            <h5>Javascript</h5>
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                        <div class="tech-item">
+                            <h5>Python</h5>
+                            <i class='bx bxl-python' ></i>
+                        </div>
+                        <div class="tech-item">
+                            <h5>Flask</h5>
+                            <i class='bx bxl-flask' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 </html>

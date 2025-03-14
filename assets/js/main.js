@@ -33,30 +33,42 @@ window.addEventListener('scroll', () => {
 // WORKERS LIST
 
 const workersContainer = document.querySelector(".workers-items");
+const filterSelect = document.getElementById("filter");
 
-function renderWorkers() {
-    workers.forEach(worker => {
-        const workerDiv = document.createElement("div");
-        workerDiv.classList.add("worker-item");
+// Função para renderizar os workers filtrados
+function renderWorkers(filter = "all") {
+    workersContainer.innerHTML = ""; // Limpa os trabalhadores atuais
 
-        workerDiv.innerHTML = `
-            <div class="worker-img" style="background-image: url('${worker.image}');"></div>
-            <h4>${worker.name}</h4>
-            <h5>${worker.role}</h5>
-            <div class="worker-social">
-                <a href="${worker.linkedin}" target="_blank" class="linkedin-icon">
-                    <i class='bx bxl-linkedin-square'></i>
-                </a>
-                <a href="${worker.github}" target="_blank" class="github-icon">
-                    <i class='bx bxl-github'></i>
-                </a>
-            </div>
-        `;
+    workers
+        .filter(worker => filter === "all" || worker.role === filter) // Filtra os workers
+        .forEach(worker => {
+            const workerDiv = document.createElement("div");
+            workerDiv.classList.add("worker-item");
 
-        workersContainer.appendChild(workerDiv);
-    });
+            workerDiv.innerHTML = `
+                <div class="worker-img" style="background-image: url('${worker.image}');"></div>
+                <h4>${worker.name}</h4>
+                <h5>${worker.role}</h5>
+                <div class="worker-social">
+                    <a href="${worker.linkedin}" target="_blank" class="linkedin-icon">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="${worker.github}" target="_blank" class="github-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+            `;
+
+            workersContainer.appendChild(workerDiv);
+        });
 }
 
+// Evento para filtrar ao selecionar uma opção no <select>
+filterSelect.addEventListener("change", (event) => {
+    renderWorkers(event.target.value);
+});
+
+// Renderiza todos os trabalhadores inicialmente
 renderWorkers();
 
 
@@ -72,3 +84,17 @@ const sr = ScrollReveal({
 sr.reveal('.img-banner, .how-it-item', {origin: 'left'})
 sr.reveal('.banner-title, .where-it-item', {origin: 'right'})
 sr.reveal('.section3-items, .workers-items', { interval: 100 })
+
+
+// SWIPPER
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay: true,
+  
+    // Navigation arrows
+    
+
+  });

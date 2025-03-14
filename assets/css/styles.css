@@ -13,7 +13,7 @@
 
 .section{
     padding: 4.5rem 0 2rem;
-    background-color: #196f3d;
+    /* background-color: rgb(45, 45, 124); */
     color: #fff;
 }
 
@@ -22,12 +22,14 @@
 }
 
 .section-light{
-    background-color: #28b463;
-    color: black;
+    /* background-color: #fff; */
+    color: #fff;
 }
 
 body{
-    background-color: rgb(45, 45, 124);
+    /* background-color: rgb(45, 45, 124); */
+    background: linear-gradient(to bottom,  #aed6f1 ,#3498db ,#3620DE, #2C1EBE, #1A3C7D, #154360);
+    color: #fff;
 }
 
 html{
@@ -57,6 +59,7 @@ main{
     height: 60px;
     width: 100%;
     z-index: 999;
+    background-color: #FF7EC7;
 }
 
 .nav{
@@ -96,7 +99,7 @@ main{
         top: 0;
         right: -100%;
         bottom: 0;
-        background-color: #196f3d;
+        background-color: #FF7EC7;
         padding-bottom: 4rem;
         transition: .5s;
         border-left: 1px solid black;
@@ -118,12 +121,9 @@ main{
     border: 2px solid #fff;
     padding: 14px 20px;
     border-radius: 30px;
-    text-transform: capitalize !important;
     
 }
-.nav-button:hover{
-    border: 2px solid var(--secundary-color);
-}
+
 
 .nav-item:has(.nav-button){
     margin-top: 18px;
@@ -132,7 +132,6 @@ main{
 .nav-link{
     color: var(--title-color);
     font-weight: bold;
-    text-transform: uppercase;
     transition: .3s;
 }
 .nav-link:hover{
@@ -167,13 +166,9 @@ main{
 /* BACKGROUND HEADER */
 
 .background-header{
-    background-color: #196f3d;
+    background-color: #FF7EC7;
 }
 
-/* ACTIVE LINK */
-.active-link{
-    color: var(--secundary-color);
-}
 
 @media(min-width: 767px){
 
@@ -205,7 +200,6 @@ main{
     }
 
     .nav-item a{
-        text-transform: capitalize;
         font-weight: initial;
     }
 }
@@ -245,13 +239,32 @@ main{
     font-size: 5rem;
 }
 
+.historia-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-saiba-mais{
+    margin-top: 10px;
+}
+
+.btn-saiba-mais a{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3620DE;
+    transition: all .3s;
+}
+.btn-saiba-mais a:hover{
+    opacity: 0.7;
+}
 
 /* COMO FUNCIONA E ONDE TÁ? */
 
 .imagem{
     height: 300px;
     width: 600px;
-    background-color: aqua;
+    background-color: #FF7EC7;
 }
 
 .how-where-container{
@@ -280,18 +293,17 @@ main{
     align-items: center;
 }
 
+/* SWIPPER */
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
 
 
 /* SECTION3 */
 
-.section3-container{
-  
-}
-
-.section3-container h2{
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
 .section3-items{
     display: grid;
@@ -315,6 +327,18 @@ main{
 
 .workers-container h2{
     margin-bottom: 1rem;
+}
+
+.worker-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.worker-header #filter{
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .workers-items{
@@ -351,12 +375,6 @@ main{
     font-size: 1rem;
     margin-top: 1.2rem;
 }
-.worker-item .worker-social .linkedin-icon{
-    color: rgb(29, 29, 236);
-}
-.worker-item .worker-social .github-icon{
-    color: rgb(11, 11, 23);
-}
 .worker-item .worker-social i{
     font-size: 2rem;
     cursor: pointer;
@@ -364,10 +382,6 @@ main{
 
 
 /* SLIDER */
-
-.slider-container{
-
-}
 
 .slide-container h2{
     margin-bottom: 1rem;
@@ -379,6 +393,51 @@ main{
     height: 400px;
     margin-top: 1rem;
     border-radius: 10px;
+}
+
+
+/* TECNOLOGIAS */
+
+.techs-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.techs-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.tech-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.tech-item i{
+    font-size: 3rem;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #0a1f2d;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer-content img{
+    width: 10% !important;
+    height: auto;
 }
 
 @media(max-width: 1400px){

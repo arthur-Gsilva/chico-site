@@ -17,7 +17,7 @@ const workers = [
         name: 'Felipe Silva',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
-        image: 'https://s2-extra.glbimg.com/SQZbAPDNplnD-6Kd0HecTLjaXKI=/0x0:1170x1165/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2023/F/T/qwUKRyQ4mn2osqsUu4xQ/whatsapp-image-2023-12-22-at-10.27.23-am.jpeg',
+        image: 'https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZW0lMjBqb3ZlbSUyMCU3Q3xlbnwwfHwwfHx8MA%3D%3D',
         github: 'https://github.com/arthur-Gsilva'
     },
     {

@@ -440,13 +440,7 @@ footer{
     height: auto;
 }
 
-@media(max-width: 1400px){
-    .container{
-        max-width: 980px;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-}
+
 
 @media(max-width: 1024px){
     .workers-items{
@@ -454,7 +448,17 @@ footer{
     }
 }
 
+@media(max-width: 1040px){
+    .container{
+        max-width: 980px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
 @media(max-width: 767px){
+
+    
     
     .banner-container{
         flex-direction: column-reverse;

@@ -9,7 +9,7 @@ const workers = [
     {
         name: 'Allan Almeida',
         role: 'Front-end',
-        linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
+        linkedin: 'https://www.linkedin.com/in/allanvitormarques/',
         image: 'assets/img/workerAllan.jpg',
         github: 'https://github.com/AllanVitorM'
     },
@@ -24,14 +24,14 @@ const workers = [
         name: 'Arthur Silva',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
-        image: 'assets/img/workerArthurg.jpg',
+        image: 'assets/img/workerArthurg.JPG',
         github: 'https://github.com/arthur-Gsilva'
     },
     {
         name: 'Arthur Silveira',
         role: 'Design',
         linkedin: 'https://www.linkedin.com/in/arthur-silveira-4058542a1',
-        image: 'assets/img/workerArthurs.jpg',
+        image: 'assets/img/workerArthurs.jpeg',
         github: 'https://github.com/IsArthurSilveira'
     },
     {
@@ -39,20 +39,20 @@ const workers = [
         role: 'Mentor',
         linkedin: 'https://www.linkedin.com/in/filipescmelo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         image: 'assets/img/workerFilipe.png',
-        github: 'https://github.com/Vanessa-Matias'
+        github: 'https://github.com/fisocame'
     },
     {
         name: 'Lucas Leonides',
         role: 'Maker',
         linkedin: 'https://www.linkedin.com/in/lucas-leonides-555846299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        image: 'assets/img/workerLucasl.jpg',
+        image: 'assets/img/workerLucasl.JPG',
         github: 'https://github.com/Lucas-Leonides'
     },
     {
         name: 'Lucas Ximenes',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/lucas-ximenes/',
-        image: 'assets/img/workerLucasx.jpg',
+        image: 'assets/img/workerLucasx.JPG',
         github: 'https://github.com/ximenesl'
     },
     {
@@ -66,7 +66,7 @@ const workers = [
         name: 'Luiz Santos',
         role: 'Maker',
         linkedin: 'https://www.linkedin.com/in/luizfmoraessantos?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        image: 'assets/img/workerLuiz.jpg',
+        image: 'assets/img/workerLuiz.JPG',
         github: 'https://github.com/LuizFelipeMoraesSantos'
     },
     {
@@ -80,42 +80,42 @@ const workers = [
         name: 'Mateus Assis',
         role: 'Back-end',
         linkedin: 'http://www.linkedin.com/in/mateus-henrique-assis',
-        image: 'assets/img/workerMateus.jpg',
+        image: 'assets/img/workerMateus.jpeg',
         github: 'https://github.com/MatHenriqueAssis'
     },
     {
         name: 'Pedro Lima',
         role: 'Back-end',
         linkedin: 'http://www.linkedin.com/in/pedrolcl1122',
-        image: 'assets/img/workerPedrol.jpg',
+        image: 'assets/img/workerPedrol.JPG',
         github: 'https://github.com/pedroLuizLima'
     },
     {
         name: 'Pedro Oliveira',
         role: 'Maker',
         linkedin: 'http://www.linkedin.com/in/pedro-vitor-a036ba27b',
-        image: 'assets/img/workerPedroo.jpg',
+        image: 'assets/img/workerPedroo.JPG',
         github: 'https://github.com/PV-Lopes'
     },
     {
         name: 'Rayra Silva',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/rayra-lima?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        image: 'assets/img/workerRayra.jpg',
+        image: 'assets/img/workerRayra.JPG',
         github: 'https://github.com/Rayralima'
     },
     {
         name: 'Ruth Xavier',
         role: 'Design',
         linkedin: 'https://www.linkedin.com/in/ruthxavier/',
-        image: 'assets/img/workerRuth.jpg',
+        image: 'assets/img/workerRuth.JPG',
         github: 'https://github.com/xavierruth'
     },
     {
         name: 'Samantha Pimentel',
         role: 'Mentor',
         linkedin: 'https://www.linkedin.com/in/samantha-pimentel-54207292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        image: 'assets/img/workerSamantha.jpg',
+        image: 'assets/img/workerSamantha.JPG',
         github: 'https://github.com/PimentelSamantha'
     },
     {

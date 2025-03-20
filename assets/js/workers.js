@@ -31,7 +31,7 @@ const workers = [
         name: 'Arthur Silveira',
         role: 'Design',
         linkedin: 'https://www.linkedin.com/in/arthur-silveira-4058542a1',
-        image: './assets/img/workerArthurs.jpeg',
+        image: 'assets/img/workerArthurs.jpeg',
         github: 'https://github.com/IsArthurSilveira'
     },
     {

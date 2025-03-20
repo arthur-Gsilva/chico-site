@@ -89,12 +89,106 @@ sr.reveal('.section3-items, .workers-items, .techs-items, .footer-content', { in
 // SWIPPER
 
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
-    autoplay: true,
-  
-    // Navigation arrows
-    
+    loopedSlides: 3, // Número de slides duplicados para o loop funcionar
+    autoplay: {
+        delay: 3000,
+    },
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
 
-  });
+
+// COMO O CHICO ENXERGA O MUNDO 
+
+const getImages = async (num) => {
+    const response = await fetch(`https://visao.pythonanywhere.com/imagens/${num}`);
+    const data = await response.json();
+    return data;
+};
+
+const renderImageChico = async () => {
+    const images = await getImages(5);
+    console.log(images);
+
+    const container = document.querySelector('.chico-vision');
+    container.innerHTML = '';
+
+    images.forEach(image => {
+        container.innerHTML += `
+            <div class="swiper-slide">
+                <img src="${image.url}" id="fotos-chico-vision" alt="Foto de exemplo do Chico">
+            </div>
+        `;
+    });
+
+    // ⚠️ Agora inicializamos o Swiper APÓS carregar as imagens
+    setTimeout(() => {
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+            loopedSlides: images.length >= 3 ? 3 : images.length, // Se não tiver 3 imagens, reduz
+            autoplay: {
+                delay: 3000,
+            },
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    }, 100); // Pequeno delay para garantir que os slides foram renderizados
+};
+
+renderImageChico();
+
+
+
+// SCROOLL SECTIONS
+
+const sections = document.querySelectorAll('section[id]');
+
+
+function scrollActive() {
+    const scrollY = window.scrollY;
+
+    sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 60; // Ajusta altura do header
+        const sectionId = section.getAttribute('id');
+
+        const navLink = document.querySelector('.nav-menu a[href="#' + sectionId + '"]');
+
+        if (navLink) { // Verifica se o elemento existe antes de manipular
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                navLink.classList.add('active-link');
+            } else {
+                navLink.classList.remove('active-link');
+            }
+        }
+    });
+}
+
+window.addEventListener('scroll', scrollActive);
+
+// Adiciona scroll suave ao clicar no menu
+links.forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop - 50,
+                behavior: 'smooth'
+            });
+        }
+    });
+});

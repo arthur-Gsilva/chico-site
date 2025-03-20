@@ -228,7 +228,7 @@ main{
     position: relative;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     z-index: 2;
 }
@@ -255,6 +255,16 @@ main{
 }
 .btn-saiba-mais a:hover{
     opacity: 0.7;
+}
+
+
+#chico{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* COMO FUNCIONA E ONDE TÁ? */
@@ -580,6 +590,10 @@ footer {
         height: 400px;
     }
 
+    #chico{
+        width: 200px;
+    }
+
     .how-where-container{
         gap: 7rem;
     }
@@ -624,5 +638,9 @@ footer {
 
     .banner-container img{
         height: 300px;
+    }
+
+    #chico{
+        width: 120px;
     }
 }

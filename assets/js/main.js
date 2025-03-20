@@ -84,6 +84,7 @@ const sr = ScrollReveal({
 sr.reveal('.img-banner, .how-it-item', {origin: 'left'})
 sr.reveal('.banner-title, .where-it-item', {origin: 'right'})
 sr.reveal('.section3-items, .workers-items, .techs-items, .footer-content', { interval: 100 })
+sr.reveal('#chico', {origin: 'bottom'})
 
 
 // SWIPPER

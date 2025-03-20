@@ -8,7 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <link
         rel="stylesheet"
@@ -32,14 +32,14 @@
         <nav class="nav container">
             <div class="nav-logo">
                 <a href="#">
-                    <img src="assets/img/logo.png" alt="skull">
+                    <img src="assets/img/logo.png" alt="logo do projeto chico">
                 </a>
             </div>
 
             <div class="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#funciona" class="nav-link">O Que é</a>
+                        <a href="#what" class="nav-link">O Que é</a>
                     </li>
                     <li class="nav-item">
                         <a href="#who" class="nav-link">Quem somos?</a>
@@ -48,7 +48,7 @@
                         <a href="#images" class="nav-link">Imagens</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#documnetos" class="nav-link">Documentaçõs</a>
+                        <a href="#documents" class="nav-link">Documentações</a>
                     </li>
                 </ul>
 
@@ -69,32 +69,37 @@
         <section class="section section-banner" >
             <div id="banner">
                 <div class="container banner-container">
-                    <img class="img-banner" src="assets/img/chico.png" alt="imagem do chico">
-                    <h1 class="banner-title">Projeto Chico</h1>
                 </div>
             </div>
         </section>
 
         <!-- O QUE É O CHICO E HISTÓRIA -->
-        <section class="section section-light" id="#">
+        <section class="section section-light" id="what">
             <div class="how-where-area">
                 <div class="container how-where-container">
                     <div class="how-it-item">
                         <div>
-                            <h3>O Que é o chico no Sabrae?</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repudiandae eos adipisci delectus minus quos quisquam deleniti soluta provident, magni atque molestias autem maxime, sit, quam eaque vero corporis molestiae.</p>
+                            <h3>Chico no Startup Day</h3>
+                            <p>Em 2025, Chico retorna com uma cara nova, mas ainda mantendo suas origens.
+                                O Chico Sabido é um jogo
+                                interativo criado em parceria entre a Faculdade SENAC Pernambuco, alunos
+                                do curso de Análise e Desenvolvimento de Sistemas e o SEBRAE.<br>
+                                Agora, Chico traz consigo um quiz educativo e o "Chiquito", seu
+                                joystick exclusivo. À pedido do SEBRAE, o projeto amplia a experiência interativa,
+                                permitindo que jogadores testem conhecimentos enquanto Chico reage
+                                dinamicamente, oferecendo interações divertidas.</p>
                         </div>
-
-                        <div class="imagem"></div>
+                        <div class="imagem"><img src="./assets/img/chicoNoSebrae.jpg" alt="Chico no Sebrae"></div>
+                       
                     </div>
                     <div class="where-it-item">
                         <div class="historia-item">
-                            <h3>Como a história começou?</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente repudiandae eos adipisci delectus minus quos quisquam deleniti soluta provident, magni atque molestias autem maxime, sit, quam eaque vero corporis molestiae.</p>
-                            <div class="btn-saiba-mais"><a href="https://www.exemplo.com"  target="_blank">Saiba Mais</a></div>
+                            <h3>Como o Chico surgiu?</h3>
+                            <p>O caranguejo Chico, uma obra de metarreciclagem composta por resíduos eletrônicos, ganhou vida em novembro de 2024 para o evento do Rec’n’play, como um símbolo que une tecnologia, sustentabilidade e cultura pernambucana.</p>
+                                
+                                <div class="btn-saiba-mais"><a href="https://i9i.app/chico"  target="_blank">Conheça mais sobre o Chico!</a></div>
                         </div>
-
-                        <div class="imagem"></div>
+                        <div class="imagem"> <img src= "https://projeto-chico.vercel.app/ezgif.com-animated-gif-maker.gif" alt="Chico no Sebrae"></div>
                     </div>
                 </div>
             </div>
@@ -104,17 +109,12 @@
         <section class="section" id="#">
             <div class="container slide-container">
                 <h2>Como o Chico enxerga</h2>
-                <p>Área dedicada para slide</p>
 
                 <!-- Slider main container -->
                 <div class="swiper">
                 <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        ...
+                    <div class="swiper-wrapper chico-vision">
+                        
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
@@ -126,20 +126,27 @@
                     <!-- If we need scrollbar -->
                     <div class="swiper-scrollbar"></div>
                 </div>
+
+                <button id="all-images">
+                    Ver todas as fotos
+                </button>
             </div>
         </section>
 
         <!-- WORKER -->
-        <section class="section section-light" id="#">
+        <section class="section section-light" id="who">
             <div class="container workers-container">
                 <div class="worker-header">
                     <h2>Quem fez?</h2>
 
                     <select id="filter">
                         <option value="all">Todos</option>
+                        <option value="Mentores">Mentores</option>
+                        <option value="Gestão">Gestão</option>
+                        <option value="Design">Design</option>
+                        <option value="Maker">Maker</option>
                         <option value="Front-end">Front-end</option>
                         <option value="Back-end">Back-end</option>
-                        <option value="Gestão">Gestão</option>
                     </select>
                 </div>
 
@@ -166,24 +173,35 @@
         </section>
 
         <!-- SLIDER -->
-        <section class="section" id="#">
+        <section class="section" id="images">
             <div class="container slide-container">
                 <h2>Fotos da Equipe do Projeto</h2>
-                <p>Área dedicada para slide</p>
 
                 <div class="swiper">
                     <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper equipe-projeto">
                             <!-- Slides -->
-                            <div class="swiper-slide">Slide 1</div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
-                            ...
+                            <div class="swiper-slide"> <img src="./assets/img/foto1.JPG" alt="Foto 1"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto2.JPG" alt="Foto 2"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto3.JPG" alt="Foto 3"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto4.JPG" alt="Foto 4"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto5.JPG" alt="Foto 5"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto6.JPG" alt="Foto 6"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto7.JPG" alt="Foto 7"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto8.JPG" alt="Foto 8"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto9.JPG" alt="Foto 9"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto10.JPG" alt="Foto 10"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto11.JPG" alt="Foto 11"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto12.JPG" alt="Foto 12"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto13.JPG" alt="Foto 13"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto14.JPG" alt="Foto 14"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto15.JPG" alt="Foto 15"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto16.JPG" alt="Foto 16"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto17.JPG" alt="Foto 17"></div>
+                            <div class="swiper-slide"> <img src="./assets/img/foto18.JPG" alt="Foto 18"></div>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
-    
-                        <!-- If we need navigation buttons -->
                         
                     </div>
             </div>
@@ -192,7 +210,7 @@
 
         <!-- TECH CARDS -->
 
-        <section class="section section-light" id="#">
+        <section class="section section-light" id="documents">
             <div class="techs-area">
                 <div class="container techs-container">
                     <h2>Tecnologias</h2>
@@ -218,8 +236,12 @@
                             <h5>Flask</h5>
                             <i class='bx bxl-flask' ></i>
                         </div>
-                    </div>
+                    </div><br><br>
                 </div>
+                <div class="tech-container">
+                <div><a class="tech-links" href="https://www.exemplo.com">Conheça o Repositório</a></div>
+                <div><a class="tech-links" href="./assets/img/chicoNoSebrae.jpg">Conheça onde tudo Começa</a></div>
+            </div>
             </div>
         </section>
 
@@ -228,11 +250,13 @@
     <footer>
         <div class="container footer-container">
             <div class="footer-content">
-                <img src="assets/img/chico-logo.PNG" alt="">
                 <img src="assets/img/sebrae-logo.png" alt="">
+                <img src="assets/img/logoStartupDay.PNG" alt="">
                 <img src="assets/img/senac-logo.png" alt="">
             </div>
+            <div><p class="copyright">Todos os direitos reservados, 2025.</p></div>
         </div>
+        <div class="footer-img"><img src="/assets/img/FooterMangue.png"></div>
     </footer>
 </body>
 </html>

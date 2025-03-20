@@ -31,7 +31,7 @@ const workers = [
         name: 'Arthur Silveira',
         role: 'Design',
         linkedin: 'https://www.linkedin.com/in/arthur-silveira-4058542a1',
-        image: 'assets/img/workerArthurs.jpg',
+        image: 'assets/img/workerArthurs.jpeg',
         github: 'https://github.com/IsArthurSilveira'
     },
     {
@@ -80,7 +80,7 @@ const workers = [
         name: 'Mateus Assis',
         role: 'Back-end',
         linkedin: 'http://www.linkedin.com/in/mateus-henrique-assis',
-        image: 'assets/img/workerMateus.JPG',
+        image: 'assets/img/workerMateus.jpeg',
         github: 'https://github.com/MatHenriqueAssis'
     },
     {
@@ -94,7 +94,7 @@ const workers = [
         name: 'Pedro Oliveira',
         role: 'Maker',
         linkedin: 'http://www.linkedin.com/in/pedro-vitor-a036ba27b',
-        image: 'assets/img/workerPedroo.jpg',
+        image: 'assets/img/workerPedroo.JPG',
         github: 'https://github.com/PV-Lopes'
     },
     {

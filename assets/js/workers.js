@@ -17,7 +17,7 @@ const workers = [
         name: 'Arnott Caiado',
         role: 'Mentor',
         linkedin: 'https://www.linkedin.com/in/arnottcaiado?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        image: 'assets/img/workerArnott.jpg',
+        image: 'assets/img/workerArnott.JPG',
         github: 'https://github.com/arnottrcaiado'
     },
     {

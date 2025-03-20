@@ -80,7 +80,7 @@ const workers = [
         name: 'Mateus Assis',
         role: 'Back-end',
         linkedin: 'http://www.linkedin.com/in/mateus-henrique-assis',
-        image: 'assets/img/workerMateus.jpg',
+        image: 'assets/img/workerMateus.jpeg',
         github: 'https://github.com/MatHenriqueAssis'
     },
     {

@@ -24,14 +24,14 @@ const workers = [
         name: 'Arthur Silva',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
-        image: 'assets/img/workerArthurg.jpg',
+        image: 'assets/img/workerArthurg.JPG',
         github: 'https://github.com/arthur-Gsilva'
     },
     {
         name: 'Arthur Silveira',
         role: 'Design',
         linkedin: 'https://www.linkedin.com/in/arthur-silveira-4058542a1',
-        image: 'assets/img/workerArthurs.JPG',
+        image: 'assets/img/workerArthurs.jpg',
         github: 'https://github.com/IsArthurSilveira'
     },
     {

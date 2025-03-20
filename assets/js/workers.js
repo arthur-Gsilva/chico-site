@@ -9,7 +9,7 @@ const workers = [
     {
         name: 'Allan Almeida',
         role: 'Front-end',
-        linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
+        linkedin: 'https://www.linkedin.com/in/allanvitormarques/',
         image: 'assets/img/workerAllan.jpg',
         github: 'https://github.com/AllanVitorM'
     },
@@ -39,7 +39,7 @@ const workers = [
         role: 'Mentor',
         linkedin: 'https://www.linkedin.com/in/filipescmelo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         image: 'assets/img/workerFilipe.png',
-        github: 'https://github.com/Vanessa-Matias'
+        github: 'https://github.com/fisocame'
     },
     {
         name: 'Lucas Leonides',

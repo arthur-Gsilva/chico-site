@@ -24,7 +24,7 @@ const workers = [
         name: 'Arthur Silva',
         role: 'Front-end',
         linkedin: 'https://www.linkedin.com/in/arthurgabrielsilva/',
-        image: 'assets/img/workerArthurg.JPG',
+        image: 'assets/img/workerArthurg.jpg',
         github: 'https://github.com/arthur-Gsilva'
     },
     {
@@ -94,7 +94,7 @@ const workers = [
         name: 'Pedro Oliveira',
         role: 'Maker',
         linkedin: 'http://www.linkedin.com/in/pedro-vitor-a036ba27b',
-        image: 'assets/img/workerPedroo.JPG',
+        image: 'assets/img/workerPedroo.jpg',
         github: 'https://github.com/PV-Lopes'
     },
     {

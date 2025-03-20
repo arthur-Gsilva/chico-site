@@ -575,6 +575,10 @@ footer {
 
 @media(max-width: 767px){
 
+    .how-where-container p{
+        font-size: 1rem;
+    }
+
     #banner {
         height: 50vh;
     }

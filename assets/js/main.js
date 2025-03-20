@@ -114,7 +114,6 @@ const getImages = async (num) => {
 
 const renderImageChico = async () => {
     const images = await getImages(5);
-    console.log(images);
 
     const container = document.querySelector('.chico-vision');
     container.innerHTML = '';
@@ -127,12 +126,12 @@ const renderImageChico = async () => {
         `;
     });
 
-    // ⚠️ Agora inicializamos o Swiper APÓS carregar as imagens
+
     setTimeout(() => {
         const swiper = new Swiper('.swiper', {
             direction: 'horizontal',
             loop: true,
-            loopedSlides: images.length >= 3 ? 3 : images.length, // Se não tiver 3 imagens, reduz
+            loopedSlides: images.length >= 3 ? 3 : images.length, 
             autoplay: {
                 delay: 3000,
             },

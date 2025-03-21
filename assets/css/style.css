@@ -326,6 +326,7 @@ h3{
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    margin-left: 50px;
 }
 
 .where-it-item{

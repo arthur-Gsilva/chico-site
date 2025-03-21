@@ -306,7 +306,7 @@ main{
 .how-where-container{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 6rem;
 }
 .how-where-container p{
     font-size: 1.7rem;
@@ -323,18 +323,32 @@ h3{
 
 .how-it-item{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    justify-content: space-between;
+}
+
+.how-it-item .info{
+   width: 70%;
+}
+
+.how-it-item .imagem{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.how-it-item .imagem img{
+    width: auto;
+    height: 550px;
 }
 
 .where-it-item{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 7rem;
     align-items: center;
 }
+
 
 /* SWIPPER */
 
@@ -388,7 +402,7 @@ h3{
     padding: 1rem;
     color: #fff;
     border: 0;
-    border-radius: 10px;
+    border-radius: 100px;
     cursor: pointer;
     background: linear-gradient(to bottom,  #D00076 ,#FF7EC7);
     transition: .3s;

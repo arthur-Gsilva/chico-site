@@ -325,8 +325,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    margin-left: 150px;
+    gap: 6rem;
 }
 
 .where-it-item{

@@ -253,7 +253,13 @@ main{
     font-size: 4rem;
     margin-top: 1.2rem;
 }
-
+#banner h2 {
+    text-align: center;      
+    font-size: 4rem;        
+    font-weight: bold;      
+    color: #fff;
+    margin-top: 50px;   
+}     
 .historia-item{
     display: flex;
     flex-direction: column;

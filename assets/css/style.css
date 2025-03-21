@@ -400,8 +400,8 @@ main{
 }
 
 .worker-header #filter{
-    padding: 3px;
-    border-radius: 5px;
+    padding: 6px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
@@ -489,7 +489,7 @@ main{
 .tech-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     margin-right: 15px;
     margin-top: 15px;
 }

@@ -35,8 +35,11 @@ window.addEventListener('scroll', () => {
 const workersContainer = document.querySelector(".workers-items");
 const filterSelect = document.getElementById("filter");
 
+// Definir o valor padrão do <select> como "Mentor"
+filterSelect.value = "Mentor";
+
 // Função para renderizar os workers filtrados
-function renderWorkers(filter = "all") {
+function renderWorkers(filter = "Mentor") { // Altera o valor padrão para "Mentor"
     workersContainer.innerHTML = ""; // Limpa os trabalhadores atuais
 
     workers
@@ -68,8 +71,8 @@ filterSelect.addEventListener("change", (event) => {
     renderWorkers(event.target.value);
 });
 
-// Renderiza todos os trabalhadores inicialmente
-renderWorkers();
+// Renderiza apenas os trabalhadores "Mentor" no carregamento inicial
+renderWorkers("Mentor");
 
 
 // SCROLL REVEAL

@@ -390,13 +390,14 @@ main{
 /* WORKERS */
 
 .workers-container h2{
-    margin-bottom: 1rem;
+    
 }
 
 .worker-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .worker-header #filter{
@@ -449,10 +450,9 @@ main{
     border: 1px solid #3620DE;
     color: #2C1EBE;
     cursor: pointer;
-}
-
-#filter option{
-    cursor: pointer;
+    width: 150px;
+    font-size: 1rem;
+    height: 35px;
 }
 
 /* SLIDER */

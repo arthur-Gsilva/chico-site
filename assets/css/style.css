@@ -320,6 +320,9 @@ h3{
   font-size: 4rem;
     margin-bottom: 40px;
 }
+.palagrafo{
+    font-size: 1.7rem;
+}
 
 .how-it-item{
     display: flex;

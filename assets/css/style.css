@@ -737,8 +737,8 @@ footer {
     align-items: center; /* Centraliza verticalmente */
     gap: 20px;
     flex-wrap: wrap;
-    width: 100vw; /* Ocupa toda a largura da tela */
-    height: 100vh; /* Ocupa toda a altura da tela */
+    width: 100px; /* Ocupa toda a largura da tela */
+    height: 100px; /* Ocupa toda a altura da tela */
 }
 
 .step {
@@ -746,8 +746,8 @@ footer {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 80vw; /* Ocupa 80% da largura da tela */
-    height: 40vh; /* Ocupa 40% da altura da tela */
+    width: 80px; /* Ocupa 80% da largura da tela */
+    height: 40px; /* Ocupa 40% da altura da tela */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 

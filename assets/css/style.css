@@ -688,3 +688,43 @@ footer {
         width: 120px;
     }
 }
+body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2A71D0, #3B8BEB);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .card {
+            background-color: #1A2B6D;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }

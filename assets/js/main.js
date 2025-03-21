@@ -72,7 +72,7 @@ filterSelect.addEventListener("change", (event) => {
 });
 
 // Renderiza apenas os trabalhadores "Mentor" no carregamento inicial
-renderWorkers("Mentor");
+renderWorkers("all");
 
 
 // SCROLL REVEAL

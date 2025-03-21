@@ -716,3 +716,9 @@ footer {
             font-weight: bold;
      
    }
+
+.card-container-title{
+    font-size: 4rem;
+    margin-bottom: 40px;
+    margin-left:40px;
+}

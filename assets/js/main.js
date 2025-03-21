@@ -36,10 +36,10 @@ const workersContainer = document.querySelector(".workers-items");
 const filterSelect = document.getElementById("filter");
 
 // Definir o valor padrão do <select> como "Mentor"
-filterSelect.value = "Mentor";
+filterSelect.value = "all";
 
 // Função para renderizar os workers filtrados
-function renderWorkers(filter = "Mentor") { // Altera o valor padrão para "Mentor"
+function renderWorkers(filter = "all") { // Altera o valor padrão para "Mentor"
     workersContainer.innerHTML = ""; // Limpa os trabalhadores atuais
 
     workers

@@ -688,6 +688,13 @@ footer {
         width: 120px;
     }
 }
+        .container-card {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
 
         .card {
             background-color: #1A2B6D;

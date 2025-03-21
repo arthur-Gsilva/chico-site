@@ -133,9 +133,9 @@ main{
 }
 
 .nav-button{
-    border: 2px solid #fff;
-    padding: 140px 200px;
-    border-radius: 300px;
+    border: 2000px solid #fff;
+    padding: 140px 20px;
+    border-radius: 30px;
     
 }
 
@@ -260,7 +260,7 @@ main{
 }
 
 .btn-saiba-mais{
-    margin-top: 30px;
+    margin-top: 300px;
 }
 
 /* .btn-saiba-mais a{
@@ -314,7 +314,7 @@ main{
 
 .how-where-container h3{
     font-size: 4rem;
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 
 .how-it-item{

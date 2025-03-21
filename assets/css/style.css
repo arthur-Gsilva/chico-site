@@ -316,6 +316,10 @@ main{
     font-size: 4rem;
     margin-bottom: 40px;
 }
+h3{
+  font-size: 4rem;
+    margin-bottom: 40px;
+}
 
 .how-it-item{
     display: flex;
@@ -687,6 +691,7 @@ footer {
     #chico{
         width: 120px;
     }
+    
 }
         .container-card {
             display: flex;

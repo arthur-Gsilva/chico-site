@@ -536,6 +536,10 @@ h3{
     justify-items: center;
 }
 
+.techs-items h5{
+    font-size: 1.4rem;
+}
+
 .tech-item{
     display: flex;
     flex-direction: column;

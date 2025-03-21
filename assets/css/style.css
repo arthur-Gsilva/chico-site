@@ -683,6 +683,10 @@ footer {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
+
+    .how-it-item{
+        gap: 2rem;
+    }
 }
 
 @media(max-width: 767px){
@@ -723,6 +727,14 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    .how-it-item .imagem{
+        justify-content: center;
+    }
+
+    .where-it-item img{
+        width: 350px;
+        height: auto;
+    }
 
     .imagem{
         max-width: 300px;
@@ -741,6 +753,19 @@ footer {
         
         grid-template-columns: repeat(3, 1fr);
         gap: 3rem;
+    }
+
+    .where-it-item img{
+        width: 200px;
+        height: auto;
+    }
+
+    .how-it-item .imagem img{
+        height: 300px;
+    }
+
+    .step-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 @media(max-width: 440px){
@@ -763,6 +788,7 @@ footer {
     #chico{
         width: 120px;
     }
+
     
 }
 #how-to-play {

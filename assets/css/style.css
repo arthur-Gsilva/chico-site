@@ -551,7 +551,7 @@ h3{
 
 footer {
     position: relative;
-    padding-bottom: 500px; /* Aumente esse valor se precisar mais espaço */
+    padding-bottom: 200px; /* Aumente esse valor se precisar mais espaço */
 }
 
 .footer-img {

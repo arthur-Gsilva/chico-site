@@ -133,9 +133,9 @@ main{
 }
 
 .nav-button{
-    border: 2000px solid #fff;
-    padding: 140px 20px;
-    border-radius: 30px;
+    border: 20px solid #fff;
+    padding: 14px 20px;
+    border-radius: 3px;
     
 }
 

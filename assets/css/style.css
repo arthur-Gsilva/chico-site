@@ -717,8 +717,8 @@ footer {
      
    }
 
-.card-container-title{
-    font-size: 4rem;
+    .card-container-title{
+    font-size: 10rem;
     margin-bottom: 40px;
     margin-left:40px;
-}
+    }

@@ -298,7 +298,7 @@ main{
     position: absolute;
     width: 350px;
     height: auto;
-    bottom: 50px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
 }

@@ -515,6 +515,7 @@ margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    align-items: center;
 }
 
 .worker-header .paragrafo{
@@ -764,8 +765,22 @@ footer {
         height: auto;
     }
 
+    .slide-container{
+        text-align: center;
+    }
+
     .imagem{
         max-width: 300px;
+    }
+
+    .worker-header{
+        flex-direction: column;
+    }
+
+    .techs-container h3,
+    .worker-header-info,
+    .worker-header-info p{
+        text-align: center !important;
     }
 }
 @media(max-width: 600px){

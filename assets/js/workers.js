@@ -113,7 +113,7 @@ const workers = [
     },
     {
         name: 'Samantha Pimentel',
-        role: 'Mentor',
+        role: 'Mentora',
         linkedin: 'https://www.linkedin.com/in/samantha-pimentel-54207292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         image: 'assets/img/workerSamantha.JPG',
         github: 'https://github.com/PimentelSamantha'

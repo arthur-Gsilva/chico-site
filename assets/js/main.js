@@ -39,11 +39,15 @@ const filterSelect = document.getElementById("filter");
 filterSelect.value = "all";
 
 // Função para renderizar os workers filtrados
-function renderWorkers(filter = "all") { // Altera o valor padrão para "Mentor"
+function renderWorkers(filter = "all") {
     workersContainer.innerHTML = ""; // Limpa os trabalhadores atuais
 
     workers
-        .filter(worker => filter === "all" || worker.role === filter) // Filtra os workers
+        .filter(worker => 
+            filter === "all" || 
+            worker.role === filter || 
+            (filter === "Mentor" && worker.role === "Mentora") // Permite "Mentor" e "Mentora"
+        )
         .forEach(worker => {
             const workerDiv = document.createElement("div");
             workerDiv.classList.add("worker-item");

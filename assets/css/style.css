@@ -479,6 +479,13 @@ margin-bottom: 40px;
     background: linear-gradient(to top,  #D00076 ,#FF7EC7);
 }
 
+/* Video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /* SECTION3 */
 

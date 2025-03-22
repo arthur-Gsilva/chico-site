@@ -323,9 +323,9 @@ margin-bottom: 40px;
 }
 .paragrafo{
     font-family: 'videotype';
-    src: url('../fonts/videotype.ttf') format('truetype');
-    src: url('../fonts/videotype.woff') format('woff');
-    src: url('../fonts/videotype.woff2') format('woff2');
+    src: url('../fonts/videotype.ttf') format('truetype'),
+        url('../fonts/videotype.woff') format('woff'),
+        url('../fonts/videotype.woff2') format('woff2');
     font-size: 1.7rem;
 }
 

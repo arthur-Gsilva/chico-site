@@ -329,10 +329,7 @@ h3{
 margin-bottom: 40px;
 }
 .paragrafo{
-    font-family: 'videotype';
-    src: url('../fonts/videotype.ttf') format('truetype'),
-        url('../fonts/videotype.woff') format('woff'),
-        url('../fonts/videotype.woff2') format('woff2');
+    font-family: 'videotype', sans-serif;
     font-size: 1.7rem;
 }
 

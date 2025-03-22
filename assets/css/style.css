@@ -540,7 +540,6 @@ margin-bottom: 40px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: 1.3rem;
     padding-bottom: 5px;
@@ -566,6 +565,15 @@ margin-bottom: 40px;
 .worker-item .worker-social i{
     font-size: 2rem;
     cursor: pointer;
+    color: #FF7EC7;
+}
+.worker-item h4{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.worker-item h5{
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 #filter{

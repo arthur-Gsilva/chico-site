@@ -4,7 +4,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'videotype';
+    src: url('../fonts/videotype.ttf') format('truetype'),
+        url('../fonts/videotype.woff') format('woff'),
+        url('../fonts/videotype.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: -4;
     padding: 0;

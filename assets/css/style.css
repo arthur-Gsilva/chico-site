@@ -326,6 +326,8 @@ h3{
     margin-bottom: 40px;
 }
 .paragrafo{
+    font-family: 'videotype';
+    src: url('../fonts/videotype.ttf') format('truetype');
     font-size: 1.7rem;
 }
 

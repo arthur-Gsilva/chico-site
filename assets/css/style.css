@@ -788,6 +788,7 @@ footer {
 
     .worker-header{
         flex-direction: column;
+        gap: 2rem;
     }
 
     .techs-container h3,
